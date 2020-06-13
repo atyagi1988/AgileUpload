@@ -14,7 +14,7 @@ public class UpdateCodeMain implements ICustomAction {
 		String currentUser = null;
 		try {
 			currentUser = sess.getCurrentUser().getName();
-			output= "Current Logged In user is ==>"+currentUser+ " and after all!!";
+			output= "Current Logged In user is ==>"+currentUser+ " and after all again!!";
 		} catch (APIException e) {
 			e.printStackTrace();
 		}
