@@ -14,7 +14,7 @@ public class UpdateCodeMain implements ICustomAction {
 		String currentUser = null;
 		try {
 			currentUser = sess.getCurrentUser().getName();
-			output= "Current Logged In user is ==>"+currentUser+ " and again in PLM Agile!!!";
+			output= "Current Logged In user is ==>"+currentUser+ " and after all!!";
 		} catch (APIException e) {
 			e.printStackTrace();
 		}
